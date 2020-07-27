@@ -14,5 +14,4 @@ api = Api(app)
 api.add_resource(PredictGame, '/game')
 api.add_resource(ListGames, '/games')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
