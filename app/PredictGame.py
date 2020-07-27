@@ -5,7 +5,7 @@ import json
 
 
 class PredictGame(Resource):
-    def __init__(self, model_path='../models/xgb.bin'):
+    def __init__(self, model_path='./models/xgb.bin'):
 
         # setup the parser for getting game arg
         self.parser = reqparse.RequestParser()

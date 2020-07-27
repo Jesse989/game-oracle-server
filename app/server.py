@@ -1,8 +1,8 @@
 # import required libraries
 from flask import Flask
 from flask_restful import Api
-from PredictGame import PredictGame
-from ListGames import ListGames
+from app.PredictGame import PredictGame
+from app.ListGames import ListGames
 
 # instantiate flask server
 app = Flask(__name__)
